@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
- .debug [class*= col-]{
+ .debug [class*= "col-"]{
   background-color: lightpink;
   height: 300px;
   text-align: center;
@@ -11,16 +11,15 @@
   line-height: 300px;
   border: 1px solid black
 }
-.col-6 [class*=col-]{
+.debug .col-6 [class*=col-]{
 
   background-color: #F07F80;
   border:2px solid white;
 }
-.float-left {
+[class*= "col-"] {
   float: left;
 }
-.float-right {
-  float: right;
+
 }
 .container{
   width: 1170px;
