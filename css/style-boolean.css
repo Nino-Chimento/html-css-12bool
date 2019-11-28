@@ -2,3 +2,32 @@
   list-style: none;
   vertical-align: middle;
 }
+.menu li {
+  display: inline-block;
+  padding: 8px;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+  line-height: 40px;
+  width: 60px;
+  border-radius: 6px;
+  background-color: orange;
+}
+a:hover {
+  cursor: pointer;
+}
+
+.debug [class*= "col-"]{
+ background-color: lightpink;
+ height: 300px;
+ text-align: center;
+ vertical-align: middle;
+ line-height: 300px;
+ border: 1px solid black
+}
+.debug .col-6 [class*=col-]{
+
+ background-color: #F07F80;
+ border:2px solid white;
+}
